@@ -39,6 +39,7 @@
 				yoyo = mkNixosConfig "yoyo" [
 					./hosts/yoyo
 					./modules/core
+          ./modules/core/drivers/nvidia-amd-hybrid.nix
 				];
 			};
 		};

@@ -12,5 +12,6 @@ in
     ./niri.nix
     ./packages.nix
     ./git.nix
+    ./nix-ld.nix
   ];
 }
