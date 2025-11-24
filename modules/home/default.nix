@@ -7,5 +7,6 @@
     ./firefox.nix
     ./kitty.nix
     ./dankMaterialShell.nix
+    ./udiskie.nix
   ];
 }
