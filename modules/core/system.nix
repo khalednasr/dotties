@@ -51,6 +51,7 @@ in
     LC_TIME = "${locale}";
   };
   console.keyMap = "${consoleKeyMap}";
+
   services.xserver = {
     enable = false;
     xkb = {
@@ -58,6 +59,9 @@ in
       variant = "";
     };
   };
+
+  services.upower.enable = true;
+  services.power-profiles-daemon.enable = true;
 
   hardware.bluetooth.enable = true;
   hardware.bluetooth.powerOnBoot = true;

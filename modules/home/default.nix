@@ -2,8 +2,9 @@
 {
   imports = [
 		./fish.nix
+    ./niri
 		./nvim
-    ./browser.nix
+    ./firefox.nix
     ./kitty.nix
     ./dankMaterialShell.nix
   ];

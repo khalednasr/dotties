@@ -11,4 +11,11 @@
       restartIfChanged = true;
     };
   };
+
+  home.packages = [ pkgs.adw-gtk3 ];
+
+  home.sessionVariables = {
+    QT_QPA_PLATFORMTHEME = "gtk3";
+    QT_QPA_PLATFORMTHEME_QT6 = "gtk3";
+  };
 }
